@@ -1,0 +1,237 @@
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: #282931;
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+.nav-link {
+  color: #282931;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.info-icon {
+  background: url(Images/infoIcon.png) no-repeat;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+}
+
+.bell-icon {
+  background: url(Images/notificationIcon.png) no-repeat;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+}
+
+.gps-icon {
+  background: url(Images/gpsIcon.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}
+
+.nearest-car-details .gps-icon {
+  filter: invert(75%);
+}
+.more-cars-details .gps-icon {
+  filter: invert(0%);
+}
+
+.gas-icon {
+  background: url(Images/gasIcon.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nearest-car-details .gas-icon {
+  filter: invert(75%);
+}
+.more-cars-details .gas-icon {
+  filter: invert(0%);
+}
+
+.battery-icon {
+  background: url(Images/batteryIcon.png) no-repeat;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+}
+
+.nearest-car-details .battery-icon {
+  filter: invert(75%);
+}
+
+.more-cars-details .battery-icon {
+  filter: invert(0%);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.box {
+  border-radius: 20px;
+}
+
+.nearest-car-box {
+  width: 100%;
+  height: 14rem;
+  padding: 15px;
+  margin-bottom: 5%;
+  background-color: #f3f3f3;
+}
+.nearest-car-header h4 {
+  text-transform: uppercase;
+  margin: 0;
+  color: #787878;
+  letter-spacing: 4px;
+}
+
+.nearest-car-img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 9rem;
+}
+
+.nearest-car-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+.nearest-car-details {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.gps-info {
+  margin-right: 1rem;
+}
+
+.price-info {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 48%;
+  height: 12rem;
+  margin-bottom: 5%;
+  background-color: #f3f3f3;
+}
+
+.profile-img {
+  object-fit: cover;
+  width: 73px;
+  height: 73px;
+}
+.profile-name {
+  margin: 0.5rem;
+}
+.profile-balance {
+  font-weight: 600;
+}
+
+.map-box {
+  width: 48%;
+  height: 12rem;
+  margin-bottom: 5%;
+  background-color: #f3f3f3;
+}
+
+.map-img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.more-cars-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 14rem;
+  padding: 15px;
+  color: #f3f3f3;
+  background-color: #282931;
+}
+
+.more-cars-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.more-cars-header h4 {
+  color: #787878;
+  margin: 0;
+}
+
+.more-cars-car {
+  display: flex;
+  padding-left: 0.5rem;
+}
+
+.more-cars-car:last-child {
+  border-bottom: none;
+}
+
+.more-cars-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+.more-cars-details {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.more-cars-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  margin-left: auto;
+  background-color: #ffffff;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #3b3c40;
+  margin: 1rem 0;
+}
